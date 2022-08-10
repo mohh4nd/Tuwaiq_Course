@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-image: url("tic\ tac.jpg");
+}
+#container {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 45px;
+  color: white;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: purple;
+}
+.palayerStatus {
+  border: solid 1px;
+  background-color: white;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  background-color: white;
+}
+
+.cell {
+  width: 150px;
+  height: 150px;
+  border: solid purple 1px;
+  text-align: center;
+  font-size: 120px;
+  cursor: pointer;
+}
+
+#playAgainBtn {
+  color: purple;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px;
+  height: 30px;
+  font-size: 20px;
+}

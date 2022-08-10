@@ -1,0 +1,26 @@
+#one {
+  color: blue;
+}
+#two {
+  font-size: 20px;
+  color: red;
+}
+#three {
+  color: yellow;
+  background-color: black;
+}
+
+#four {
+  color: green;
+  font-size: 30px;
+}
+
+#five {
+  color: blueviolet;
+  background-color: darkgrey;
+}
+
+#logo {
+  height: 200px;
+  width: 400px;
+}

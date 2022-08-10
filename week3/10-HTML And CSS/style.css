@@ -1,0 +1,25 @@
+span {
+  font-size: 22px;
+  color: red;
+}
+
+h1,
+h2,
+h3 {
+  color: blue;
+}
+
+h4,
+h5,
+h6 {
+  color: green;
+}
+label {
+  color: orange;
+  font-size: 20px;
+}
+p{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+}

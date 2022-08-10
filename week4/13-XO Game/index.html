@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TIC TAC Game</title>
+  </head>
+
+  <body>
+    <h1 class="header">TIC TAC Game</h1>
+
+    <div id="container">
+      <p class="palayerStatus">PLAYER TURN: <span id="turn">X</span></p>
+      <!-- create a grid dispaly for XO game with divs -->
+      <div id="board">
+        <div class="cell" id="cell-0"></div>
+        <div class="cell" id="cell-1"></div>
+        <div class="cell" id="cell-2"></div>
+        <div class="cell" id="cell-3"></div>
+        <div class="cell" id="cell-4"></div>
+        <div class="cell" id="cell-5"></div>
+        <div class="cell" id="cell-6"></div>
+        <div class="cell" id="cell-7"></div>
+        <div class="cell" id="cell-8"></div>
+      </div>
+      <button id="playAgainBtn">Play Again</button>
+    </div>
+    <!-- jQuery script-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- javascript file script-->
+    <script src="main.js"></script>
+  </body>
+</html>
